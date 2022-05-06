@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+    #wrapper{
+        max-width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+    header{
+        max-width: 100%;
+        background-size: cover;
+    }
+    main{
+        max-width: 100%;
+        
+    }
+    header nav > ul li {
+        width: 20%
+    }
+    main section{
+
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+        padding:20px;
+        box-sizing: border-box;
+    }
+    main section > div{
+        height: auto
+    }
+    main section > div:after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    main section > div:last-child{
+        margin-bottom: 0;
+    }
+    main aside{
+
+        margin: 0;
+        width: 100%;
+        padding:0 25px 25px 25px;
+        box-sizing: border-box;
+    }
+    main > aside > article{
+        margin-right: 0;
+        box-sizing: border-box;
+
+    }
+    main > aside > article:last-child{
+        margin-bottom: 0;
+    }
+    footer p {
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+}
+
+
+@media screen and (max-width:730px) {
+    
+    header nav > ul li{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    header nav{
+        height: auto;
+    }
+
+    main section > div > div{
+        float: none;
+        margin-right: 0;
+        display: block;
+        text-align: center;
+        background-color: lightgreen;
+
+    }
+    main section > div article > h3{
+        text-align: center;
+    }
+    main section > div > div img{
+        padding-bottom: 0;
+
+    }
+    main > aside > article > h2{
+        text-align: center;
+    }
+    main > aside > article > h1{
+        text-align: center;
+    }
+    header h1{
+        font-size: 55px;
+    }
+    header p {
+        font-size: 20px;
+    }
+   
+}
+
