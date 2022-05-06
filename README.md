@@ -1,3 +1,3 @@
-My tasks in course:
+My tasks for course:
 
 HTML5 & CSS3
